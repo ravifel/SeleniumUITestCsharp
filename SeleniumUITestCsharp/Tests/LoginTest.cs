@@ -8,25 +8,25 @@ namespace selenium_ui_test_c_sharp.Tests
     [TestClass]
     public class LoginTest : BaseClass
     { 
-        HomePage homePage;
-        LoginPage loginPage;
+        HomePage HomePage;
+        LoginPage LoginPage;
 
         [TestMethod]
         [TestCategory("Smoke Test")]
         public void VerifyLoginFunctionalityWithValidData()
         {
-            homePage = new HomePage(driver);
-            loginPage = new LoginPage(driver);
+            HomePage = new HomePage(driver);
+            LoginPage = new LoginPage(driver);
 
             string username = ConfigurationManager.AppSettings["Email"];
             string password = ConfigurationManager.AppSettings["Password"];
 
-            homePage.ClickLoginLink();
-            string title = loginPage.GetTitle();
+            HomePage.ClickMethod(HomePage.loginLink);
+            string title = LoginPage.GetTitle();
             Assert.AreEqual(title, "Demo Web Shop. Login");
-            loginPage.EnterEmailAdress(username);
-            loginPage.EnterPassword(password);
-            loginPage.ClickLoginButton();
+            LoginPage.EnterEmailAdress(username);
+            LoginPage.EnterPassword(password);
+            LoginPage.ClickLoginButton();
         }
     }
 }

@@ -23,14 +23,9 @@ namespace selenium_ui_test_c_sharp.Pages
             return driver.Title;
         }
 
-        public void ClickRegisterLink()
+        public void ClickMethod(By component)
         {
-            driver.Click(registerLink);
-        }
-
-        public void ClickLoginLink()
-        {
-            driver.Click(loginLink);
+            driver.Click(component);
         }
     }
 }
