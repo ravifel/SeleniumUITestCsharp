@@ -24,19 +24,14 @@ namespace selenium_ui_test_c_sharp.Pages
             return driver.Title;
         }
 
-        public void EnterEmailAdress(string value)
+        public void FillTextInput(By component, string value)
         {
-            driver.EnterText(FieldEmail, value);
+            driver.EnterText(component, value);
         }
 
-        public void EnterPassword(string value)
+        public void ClickMethod(By component)
         {
-            driver.EnterText(FieldPassword, value);
-        }
-
-        public void ClickLoginButton()
-        {
-            driver.Click(BtnLogin);
+            driver.Click(component);
         }
     }
 }

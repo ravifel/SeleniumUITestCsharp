@@ -24,9 +24,9 @@ namespace selenium_ui_test_c_sharp.Tests
             HomePage.ClickMethod(HomePage.loginLink);
             string title = LoginPage.GetTitle();
             Assert.AreEqual(title, "Demo Web Shop. Login");
-            LoginPage.EnterEmailAdress(username);
-            LoginPage.EnterPassword(password);
-            LoginPage.ClickLoginButton();
+            LoginPage.FillTextInput(LoginPage.FieldEmail, username);
+            LoginPage.FillTextInput(LoginPage.FieldPassword, password);
+            LoginPage.ClickMethod(LoginPage.BtnLogin);
         }
     }
 }

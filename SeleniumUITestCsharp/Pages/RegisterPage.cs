@@ -31,40 +31,19 @@ namespace selenium_ui_test_c_sharp.Pages
             return driver.Title;
         }
 
-        public void SelectGender()
+        public void SelectMethod(By component)
         {
-            driver.Click(SelectorGenderMale);
+            driver.Click(component);
         }
 
-        public void EnterFirstName(String value)
+        public void FillTextInput(By component, string value)
         {
-            driver.EnterText(FieldFirstName, value);
+            driver.EnterText(component, value);
         }
 
-        public void EnterLastName(String value)
+        public void ClickMethod(By component)
         {
-            driver.EnterText(FieldLastName, value);
-        }
-
-        public void EnterEmail(String value)
-        {
-            driver.EnterText(FieldEmail, value);
-
-        }
-
-        public void EnterPassword(String value)
-        {
-            driver.EnterText(FieldPassword, value);
-        }
-
-        public void EnterPasswordConfirm(String value)
-        {
-            driver.EnterText(FieldPasswordConfirm, value);
-        }
-
-        public void ClickRegisterBtn()
-        {
-            driver.Click(BtnRegister);
+            driver.Click(component);
         }
 
         public string GetSuccessfullMessage()
@@ -75,11 +54,6 @@ namespace selenium_ui_test_c_sharp.Pages
         public bool IsEmailAccountDisplayed(String email)
         {
             return driver.getEmailTextDisplayed(email);
-        }
-
-        public void ClickLogout()
-        {
-            driver.Click(BtnLogout);
         }
     }
 }
