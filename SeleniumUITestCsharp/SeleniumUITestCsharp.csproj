@@ -89,9 +89,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasePage\BaseClass.cs" />
+    <Compile Include="DataModel\RegisterDataModel.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Pages\RegisterPage.cs" />
+    <Compile Include="ReadJsonData.cs" />
     <Compile Include="Tests\LoginTest.cs" />
     <Compile Include="Tests\RegisterTest.cs" />
     <Compile Include="SampleTest.cs" />
@@ -102,6 +104,7 @@
     <None Include=".gitignore" />
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="TestData\userdata.json" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
