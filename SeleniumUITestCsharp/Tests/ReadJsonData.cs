@@ -34,7 +34,8 @@ namespace SeleniumUITestCsharp
         #endregion
 
         [TestMethod]
-        public void TestMethod1()
+        [TestCategory("Read Json Data Test")]
+        public void ReadJsonDataTest()
         {
             string readDataFromJson = File.ReadAllText(@"C:\Users\ravif\source\repos\SeleniumUITestCsharp\SeleniumUITestCsharp\TestData\userdata.json");
             var registerData = JsonSerializer.Deserialize<RegisterDataModel>(readDataFromJson);

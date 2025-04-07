@@ -12,8 +12,8 @@ namespace SeleniumUITestCsharp.Tests
         LoginPage LoginPage;
 
         [TestMethod]
-        [TestCategory("Smoke Test")]
-        public void VerifyLoginFunctionalityWithValidData()
+        [TestCategory("Smoke Test Login 2")]
+        public void LoginTestFunctionality()
         {
             HomePage = new HomePage(driver);
             LoginPage = new LoginPage(driver);

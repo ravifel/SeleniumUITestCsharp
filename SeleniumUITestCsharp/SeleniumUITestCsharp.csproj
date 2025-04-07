@@ -96,11 +96,11 @@
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Pages\RegisterPage.cs" />
-    <Compile Include="ReadJsonData.cs" />
-    <Compile Include="RegisterTestWithMultipleData.cs" />
+    <Compile Include="Tests\ReadJsonData.cs" />
+    <Compile Include="Tests\RegisterTestWithMultipleData.cs" />
     <Compile Include="Tests\LoginTest.cs" />
     <Compile Include="Tests\RegisterTest.cs" />
-    <Compile Include="SampleTest.cs" />
+    <Compile Include="Tests\SampleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebDriverExtensions\WebDriverExtensions.cs" />
   </ItemGroup>

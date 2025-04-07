@@ -18,9 +18,9 @@ namespace SeleniumUITestCsharp
             driver.Manage().Window.Maximize(); // Maximize the Browser Window.
         }
 
-        [TestCategory("SampleTest")]
         [TestMethod]
-        public void TestMethod1()
+        [TestCategory("Sample Test 1")]
+        public void SampleTestImplementation()
         {
             try
             {

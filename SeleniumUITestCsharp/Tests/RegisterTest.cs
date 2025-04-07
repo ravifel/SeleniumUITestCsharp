@@ -12,9 +12,9 @@ namespace SeleniumUITestCsharp.Tests
         public HomePage HomePage;
         public RegisterPage RegisterPage;
 
-        [TestCategory("SmokeTest")]
         [TestMethod]
-        public void VerifyRegisterFunctionalityWithValidData()
+        [TestCategory("Smoken Test Login 1")]
+        public void RegisterLoginTestFunctionality()
         {
             HomePage = new HomePage(driver);
             RegisterPage = new RegisterPage(driver);
