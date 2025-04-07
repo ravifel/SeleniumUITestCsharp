@@ -1,8 +1,8 @@
 ﻿using System;
 using OpenQA.Selenium;
-using selenium_ui_test_c_sharp.WebDriverExtensions;
+using SeleniumUITestCsharp.WebDriverExtensions;
 
-namespace selenium_ui_test_c_sharp.Pages
+namespace SeleniumUITestCsharp.Pages
 {
     public class RegisterPage
     {

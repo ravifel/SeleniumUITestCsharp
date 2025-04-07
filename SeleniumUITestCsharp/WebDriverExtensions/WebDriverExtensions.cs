@@ -1,12 +1,11 @@
 ﻿using System;
 using OpenQA.Selenium;
 
-namespace selenium_ui_test_c_sharp.WebDriverExtensions
+namespace SeleniumUITestCsharp.WebDriverExtensions
 {
     public static class WebDriverExtensions
     {
         // Common Methods or Reusable Methods for page
-
         public static void EnterText(this IWebDriver driver, By locator, String value)
         {
             IWebElement element = driver.FindElement(locator);
@@ -55,16 +54,6 @@ namespace selenium_ui_test_c_sharp.WebDriverExtensions
                 return true;
             }
             return true;
-        }
-
-        public static void isAlertPresent()
-        {
-
-        }
-
-        public static void selectByVisibleTextFromDropdown()
-        {
-
         }
     }
 }

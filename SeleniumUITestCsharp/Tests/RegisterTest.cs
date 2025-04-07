@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using selenium_ui_test_c_sharp.BasePage;
-using selenium_ui_test_c_sharp.Pages;
+using SeleniumUITestCsharp.BasePage;
+using SeleniumUITestCsharp.Pages;
 
-namespace selenium_ui_test_c_sharp.Tests
+namespace SeleniumUITestCsharp.Tests
 {
     [TestClass]
     public class RegisterTest : BaseClass
@@ -33,13 +33,6 @@ namespace selenium_ui_test_c_sharp.Tests
             bool IsTrue = RegisterPage.IsEmailAccountDisplayed(email);
             Assert.IsTrue(IsTrue);
             RegisterPage.ClickMethod(RegisterPage.BtnLogout);
-        }
-
-        [TestCategory("UnitTest")]
-        [TestMethod]
-        public void VerifyAppLogoDisplayed()
-        {
-
         }
     }
 }

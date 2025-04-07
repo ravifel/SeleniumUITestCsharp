@@ -1,0 +1,28 @@
+{
+    "Register": [
+        {
+            "FirstName": "John",
+            "LastName": "Silva",
+            "Email": "john.silva.abc123456@emailTest.com",
+            "Password": "123456"
+        },
+        {
+            "FirstName": "Jane",
+            "LastName": "Doe",
+            "Email": "jane.doe.abc123456@emailTest.com",
+            "Password": "654321"
+        },
+        {
+            "FirstName": "Alice",
+            "LastName": "Smith",
+            "Email": "alice.smith.abc123456@emailTest.com",
+            "Password": "abcdef"
+        },
+        {
+            "FirstName": "Bob",
+            "LastName": "Brown",
+            "Email": "bob.brown.abc123456@emailTest.com",
+            "Password": "123abc"
+        }
+    ]
+}

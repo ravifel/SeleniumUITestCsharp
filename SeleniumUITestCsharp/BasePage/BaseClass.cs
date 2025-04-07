@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace selenium_ui_test_c_sharp.BasePage
+namespace SeleniumUITestCsharp.BasePage
 {
     // Initialize the driver - Setup driver
     // Re-usable methods

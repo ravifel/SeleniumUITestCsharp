@@ -48,6 +48,9 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -94,6 +97,7 @@
     <Compile Include="Pages\LoginPage.cs" />
     <Compile Include="Pages\RegisterPage.cs" />
     <Compile Include="ReadJsonData.cs" />
+    <Compile Include="RegisterTestWithMultipleData.cs" />
     <Compile Include="Tests\LoginTest.cs" />
     <Compile Include="Tests\RegisterTest.cs" />
     <Compile Include="SampleTest.cs" />
@@ -104,6 +108,9 @@
     <None Include=".gitignore" />
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="TestData\registerdata.json" />
+    <None Include="TestData\testdata\registerData.json" />
+    <None Include="TestData\testdata\userdata.json" />
     <None Include="TestData\userdata.json" />
   </ItemGroup>
   <ItemGroup />
