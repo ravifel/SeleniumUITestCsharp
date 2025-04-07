@@ -6,6 +6,8 @@ Link to the playlist for the Selenium WebDriver + "C#" Workshop: https://youtube
 
 Link to the YouTube channel: https://www.youtube.com/@rameshkudikala83
 
+![image](https://github.com/user-attachments/assets/cd588c1c-1bbc-45c8-a74d-803a781e3ede)
+
 ------------------------------------------------------------------
 #1 Selenium WebDriver | C#.Net | Workshop
 C# seleniumwebdriver #visualstudio #testautomation #pageobjectmodel 
@@ -80,3 +82,23 @@ Run  the Test
 
 4. Push the Local code to remote repo
 github Url : https://github.com/rkudikala143/SeleniumUITest
+
+------------------------------------------------------------------
+#5 Selenium WebDriver | C#.Net | Workshop
+1. Create a JSON file with data
+2. Create Data Model ( Encapsulation)
+3. Read Json Data using System.Text.Json class libraries
+4. Create a Test Scripts and read data from JSON file.
+
+Github : https://github.com/rkudikala143/SeleniumUITest/tree/readDataFromJson
+
+------------------------------------------------------------------
+#6 Selenium WebDriver | C# -| Workshop -JsonReader(Multiple Objects)
+Create a Json file with multiple Data Objects
+Create a Data Model
+Read multiple Objects from JSon file.
+Implements in Selenium WebDriver with C#
+
+Github : https://github.com/rkudikala143/SeleniumUITest/tree/readDataFromJson
+
+
