@@ -34,8 +34,9 @@ namespace SeleniumUITestCsharp
         #endregion
 
         [TestMethod]
-        [TestCategory("Read Json Data Test")]
-        public void ReadJsonDataTest()
+        [TestCategory("Validation of new user registration tests using data from a JSON file.")]
+        [Description("Success")]
+        public void SuccessfulRegistrationTestWithJsonFile()
         {
             string readDataFromJson = File.ReadAllText(@"C:\Users\ravif\source\repos\SeleniumUITestCsharp\SeleniumUITestCsharp\TestData\userdata.json");
             var registerData = JsonSerializer.Deserialize<RegisterDataModel>(readDataFromJson);

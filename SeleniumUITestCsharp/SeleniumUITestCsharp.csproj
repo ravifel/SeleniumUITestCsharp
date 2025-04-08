@@ -100,12 +100,12 @@
     <Compile Include="Tests\RegisterTestWithMultipleData.cs" />
     <Compile Include="Tests\LoginTest.cs" />
     <Compile Include="Tests\RegisterTest.cs" />
-    <Compile Include="Tests\SampleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebDriverExtensions\WebDriverExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="example.app.config" />
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="TestData\registerdata.json" />

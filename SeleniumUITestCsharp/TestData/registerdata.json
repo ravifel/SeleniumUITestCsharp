@@ -3,25 +3,25 @@
         {
             "FirstName": "John",
             "LastName": "Silva",
-            "Email": "john.silva.abc1234567@emailTest.com",
+            "Email": "john.silva.abc12345678@emailTest.com",
             "Password": "123456"
         },
         {
             "FirstName": "Jane",
             "LastName": "Doe",
-            "Email": "jane.doe.abc1234567@emailTest.com",
+            "Email": "jane.doe.abc12345678@emailTest.com",
             "Password": "654321"
         },
         {
             "FirstName": "Alice",
             "LastName": "Smith",
-            "Email": "alice.smith.abc1234567@emailTest.com",
+            "Email": "alice.smith.abc12345678@emailTest.com",
             "Password": "abcdef"
         },
         {
             "FirstName": "Bob",
             "LastName": "Brown",
-            "Email": "bob.brown.abc1234567@emailTest.com",
+            "Email": "bob.brown.abc12345678@emailTest.com",
             "Password": "123abc"
         }
     ]

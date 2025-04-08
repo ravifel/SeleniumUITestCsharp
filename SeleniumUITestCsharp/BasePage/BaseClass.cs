@@ -13,7 +13,7 @@ namespace SeleniumUITestCsharp.BasePage
         [TestInitialize]
         public void Init()
         {
-            string urlWebSite = ConfigurationManager.AppSettings["Url"];
+            string urlWebSite = ConfigurationManager.AppSettings["Url"]; // Use "example.app.config" as an example
             driver = new ChromeDriver(); // Create an instance for Webdriver.
             driver.Navigate().GoToUrl(urlWebSite); // Navigate to ste URL.
             driver.Manage().Window.Maximize(); // Maximize the Browser Window.

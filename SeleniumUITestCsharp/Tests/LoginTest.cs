@@ -1,7 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Configuration;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SeleniumUITestCsharp.BasePage;
 using SeleniumUITestCsharp.Pages;
-using System.Configuration;
 
 namespace SeleniumUITestCsharp.Tests
 {
@@ -12,8 +12,9 @@ namespace SeleniumUITestCsharp.Tests
         LoginPage LoginPage;
 
         [TestMethod]
-        [TestCategory("Smoke Test Login 2")]
-        public void LoginTestFunctionality()
+        [TestCategory("Validating Login Functionality")]
+        [Description("Success")]
+        public void LoginTestSuccessful()
         {
             HomePage = new HomePage(driver);
             LoginPage = new LoginPage(driver);

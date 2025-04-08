@@ -12,8 +12,9 @@ namespace SeleniumUITestCsharp
     public class RegisterTestWithMultipleData : BaseClass
     {
         [TestMethod]
-        [TestCategory("Read Json Data Multiple Objects")]
-        public void ReadJsonDataMultipleObjects()
+        [TestCategory("Validation of new user registration tests using multiple objects from a JSON file.")]
+        [Description("Success")]
+        public void UserRegistrationTestsWithMultipleObjectsFromJSONFile()
         {
             RegisterList userdata = JsonConvert.DeserializeObject<RegisterList>(File.ReadAllText(@"C:\\Users\\ravif\\source\\repos\\SeleniumUITestCsharp\\SeleniumUITestCsharp\\TestData\\registerdata.json"));
 

@@ -8,13 +8,14 @@ namespace SeleniumUITestCsharp.Tests
     [TestClass]
     public class RegisterTest : BaseClass
     {
-        String email = "user.test.123@test.com";
+        String email = "user.test.1234@test.com";
         public HomePage HomePage;
         public RegisterPage RegisterPage;
 
         [TestMethod]
-        [TestCategory("Smoken Test Login 1")]
-        public void RegisterLoginTestFunctionality()
+        [TestCategory("Validation of new user registration tests.")]
+        [Description("Success")]
+        public void RegistrationTestSuccessful()
         {
             HomePage = new HomePage(driver);
             RegisterPage = new RegisterPage(driver);
